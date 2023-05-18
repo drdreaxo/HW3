@@ -1,0 +1,21 @@
+{
+  "name": "Assignment 3",
+  "version": "1.0.0",
+  "description": "Integration tests for UI-based apps",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "jest-fetch-mock": "^3.0.3",
+    "msw": "^1.2.1",
+    "whatwg-fetch": "^3.6.2"
+  }
+}
